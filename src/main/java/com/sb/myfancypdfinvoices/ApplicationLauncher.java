@@ -20,5 +20,7 @@ public class ApplicationLauncher {
         servlet.addMapping("/*");
 
         tomcat.start();
+
+        System.out.println("ApplicationLauncher: Tomcat Server has been started");
     }
 }
