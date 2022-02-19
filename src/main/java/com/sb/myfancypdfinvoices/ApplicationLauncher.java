@@ -21,6 +21,6 @@ public class ApplicationLauncher {
 
         tomcat.start();
 
-        System.out.println("ApplicationLauncher: Tomcat Server has been started and is running successfully finally");
+        System.out.println("ApplicationLauncher: Tomcat Server has been started and is running successfully eventually");
     }
 }
